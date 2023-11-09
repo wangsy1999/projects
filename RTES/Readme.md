@@ -12,7 +12,7 @@ In this project, we utilized the STM429 hardware facility to develop a system th
 4) Pattern Unlocking: To unlock the board, press and hold the blue button again, inputting the same movement pattern that was recorded.
    - Unlock Success: If the inputted pattern matches the recorded one closely, the screen will turn green and display "Unlock Successful."
    - Unlock Failure: If the inputted pattern differs significantly from the recorded one, the screen will turn red and display "Unlock Failed."
-   - ** What can be seen as similar: ** similar shape with similar speed—not much faster or slower than the original recorded one.
+   - **What can be seen as similar:** similar shape with similar speed—not much faster or slower than the original recorded one.
 
 # 3. Algorithm and Implementation Steps
 The following algorithm and steps were employed to accomplish the functionalities mentioned above:
