@@ -19,6 +19,6 @@ The following algorithm and steps were employed to accomplish the functionalitie
 1) Gyroscope Data Recording: We retrieved gyroscope readings by referencing a demo in our class. The x, y, and z values were extracted and passed to the main function for further processing.
 2) Data Smoothing: To enhance the accuracy of the recorded movements, we applied a moving average filter to the gyroscope data. This filtering technique helped to eliminate noise and ensure smoother patterns.
 3) Pattern Comparison: We utilized two approaches for comparing the recorded pattern with the inputted one, depending on their complexity:
-  • Simple Patterns: For straightforward patterns, we calculated the distance between the original pattern and the inputted one. This method proved effective in simpler scenarios.
-  • Complex Patterns: When dealing with intricate patterns, we employed cosine similarity to compare the recorded and inputted patterns on each dimension. This approach provided better accuracy and reliability.
+   _• Simple Patterns: For straightforward patterns, we calculated the distance between the original pattern and the inputted one. This method proved effective in simpler scenarios.
+   _• Complex Patterns: When dealing with intricate patterns, we employed cosine similarity to compare the recorded and inputted patterns on each dimension. This approach provided better accuracy and reliability.
 4) User Feedback: We utilized functions available on the LCD screen to provide clear instructions to the user. By using different colors and text, we visually communicated whether the inputted pattern was correct or not. Green indicated a successful unlock, while red denoted a failed attempt.
