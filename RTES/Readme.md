@@ -1,5 +1,7 @@
 # "Embedded Sentry"
 
+This is a group project. I am the main contributor and the leader of this project group. 
+
 ## 1. Successful Accomplishments
 In this project, we utilized the STM429 hardware facility to develop a system that records and replicates board movements for unlocking purposes. We have successfully implemented the following functionalities:
 ### 1) Movement Recording:
