@@ -1,5 +1,7 @@
 # 1. Contribution
 
+You can find detailed figure from the ipynb files.
+
 ## 1.1 Data Collection
 
 We collected weather data from all weather stations in NYC, spanning from December 15, 2021, to December 15, 2022, sourced from NOAA (National Centers for Environmental Information). Additionally, we obtained hourly bike-sharing usage data for New York City from 2016 via NYC Open Data, and comprehensive air pollution data for 2021 and 2022 from the EPA (Environmental Protection Agency).
@@ -19,7 +21,6 @@ The datasets comprised:
 
 Finally, we created a transform function to unify the date formats across all datasets, and merged them into a single dataset, `test.csv`, for model training.
 
----
 
 # 2. Model Training
 
